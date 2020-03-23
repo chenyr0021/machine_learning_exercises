@@ -21,7 +21,7 @@ def generate_dataset():
     x2, y2 = zip(*[data for data in class2])
     plt.plot(x1, y1, 'ro')
     plt.plot(x2, y2, 'bo')
-    plt.axis([0,1,0,1])
+    plt.axis([0,10,0,10])
     plt.show()
     return class1+class2, label1+label2
 
